@@ -4,7 +4,7 @@ public class App {
     public static void main(String[] args) {
         AbstractFactory abstractFactory;
 
-        //gato preto
+        //Cachorro Caramelo 
         abstractFactory = FactoryFornecedor.getFactory("Animal");
         Animal animal = (Animal) abstractFactory.criar("Cachorro");
 
